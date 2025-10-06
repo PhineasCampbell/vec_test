@@ -1,3 +1,12 @@
+//***********************************************************************************
+    
+    Author:       Phineas Campbell
+    Date:         6 Oct 2025
+    Version:      1.0
+    Description:  A basic C++ class to the STL vector to be called from Python 
+
+//************************************************************************************
+
 #include <vector>
 #include <numeric>
 #include <pybind11/pybind11.h>
