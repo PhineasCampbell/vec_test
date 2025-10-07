@@ -1,3 +1,13 @@
-git remote set-url origin git@github.ibm.com:WBurney/Blockchain_SDO.git
-git remote set-url origin git@github.com:PhineasCampbell/vec_test.git
-https://github.com/PhineasCampbell/vec_test.git
+This is a project to test pybind build from the same source on both Windows and Linux environments
+To build and run the code git clone --recursive
+cd to the build directory
+cmake ..
+This create the project to built either for visual studio or gcc.
+Copy the .so or .pyd file to the location where python looks for its libraries.
+The vec_time_test.py file is a python script that compares the time taken to sum large lists, it requires numpy to be installed
+This is a work in progress, I am working on improving the style.
+
+Hope you find it interesting
+
+Phineas
+
