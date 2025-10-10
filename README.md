@@ -1,5 +1,6 @@
 This is a project to test pybind build from the same source on both Windows and Linux environments
-To build and run the code git clone --recursive
+To build and run the code 
+git clone --recursive
 cd to the build directory
 cmake ..
 This creates the project to build for either visual studio or gcc.
